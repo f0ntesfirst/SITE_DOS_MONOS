@@ -244,15 +244,31 @@ body{
     text-align: end;
 }
 
+
+
+.link {
+    display: flex;
+    margin: 2em;
+}
+.edite-1 {
+    width: 60%;
+}
+.edite-2 {
+    width: 60%;
+}
+.edite-3 {
+    width: 60%;
+}
 .perfil {
-    background: #345679;
-    box-shadow: 0px 4px 4px white;
+    background: #350a06;
+    box-shadow: 0px 4px 4px gold;
     border-radius: 10px;
     margin: 1em;
-    padding: 1em;
+    padding: 2em;
+    align-items: center;
 }
 .perfil_descrição {
-    background: #2b4a63;
+    background: #350a06;
     color: white;
     font-size: 20px;
     margin: 0px;
@@ -274,12 +290,12 @@ body{
     font-size: smaller;
 }
 .biografia__texto {
-    background-color: #2b4a63;
+    background-color: #170000;
     border-radius: 20px;
     color: white;
     font-size: 25px;
     margin: 0px;
-    padding: 2em;
+    padding: 4em;
     text-align: center;
     font-weight: 300;
 }
@@ -299,17 +315,11 @@ body{
     font-weight: 300;
     justify-content: space-between;
 }
-.link {
+.trocar_conta{
     display: flex;
     margin: 2em;
+    background-color: black;  
+    max-width: 150px; 
+    text-align: center;
+    font-size: smaller;
 }
-.edite-1 {
-    width: 60%;
-}
-.edite-2 {
-    width: 60%;
-}
-.edite-3 {
-    width: 60%;
-}
-
